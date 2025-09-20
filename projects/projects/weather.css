@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  transition: background 0.5s ease;
+}
+
+/* 🔹 Top search header */
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.2);
+  padding: 15px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.header input {
+  padding: 10px;
+  width: 55%;
+  border: none;
+  border-radius: 8px;
+}
+
+.header button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background: #2980b9;
+}
+
+/* 🔹 Weather card */
+.weather-app {
+  text-align: center;
+  background: rgba(255,255,255,0.15);
+  padding: 30px;
+  border-radius: 14px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  width: 350px;
+  margin-top: 80px; /* space below header */
+}
+
+.weather-app h1 {
+  margin-bottom: 15px;
+}
+
+#toggle {
+  margin-top: 12px;
+}
+
+#toggle button {
+  background: #2ecc71;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#toggle button:hover {
+  background: #27ae60;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.weather-info h2 {
+  margin: 8px 0;
+}

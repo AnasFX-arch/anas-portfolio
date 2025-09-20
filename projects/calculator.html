@@ -9,32 +9,30 @@
 <body>
   <div class="calculator">
     <input type="text" id="display" disabled>
-
     <div class="buttons">
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>/</button>
+      <button onclick="appendValue('/')" >/</button>
+      <button onclick="appendValue('*')">×</button>
+      <button onclick="appendValue('-')">−</button>
+      <button onclick="appendValue('+')" class="plus">+</button>
 
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>*</button>
+      <button onclick="appendValue('7')">7</button>
+      <button onclick="appendValue('8')">8</button>
+      <button onclick="appendValue('9')">9</button>
 
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button>-</button>
+      <button onclick="appendValue('4')">4</button>
+      <button onclick="appendValue('5')">5</button>
+      <button onclick="appendValue('6')">6</button>
 
-      <button>0</button>
-      <button>.</button>
-      <button id="equals">=</button>
-      <button class="opeartor">+</button>
+      <button onclick="appendValue('1')">1</button>
+      <button onclick="appendValue('2')">2</button>
+      <button onclick="appendValue('3')">3</button>
 
-      <button class="clear">C</button>
+      <button onclick="appendValue('0')" class="zero">0</button>
+      <button onclick="appendValue('.')">.</button>
+      <button onclick="calculateResult()" class="equal">=</button>
     </div>
+    <button onclick="clearDisplay()" class="clear">C</button>
   </div>
-
   <script src="calculator.js"></script>
 </body>
 </html>

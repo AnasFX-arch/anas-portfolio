@@ -1,111 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anas Aliyu - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/841/841364.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas Aliyu Portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header -->
-  <header class="site-header">
-    <nav class="nav container">
-      <a class="logo" href="#">Anas Aliyu</a>
-      <ul class="nav-list">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="hero container">
-    <div class="hero-text">
-      <h1>Hi, I’m <span class="highlight">Anas Aliyu</span></h1>
-      <p>I build clean, responsive, and modern web projects using HTML, CSS, and JavaScript.  
-      Always learning, always improving.</p>
-      <div class="cta">
-        <a href="#projects" class="btn primary">See Projects</a>
-        <a href="#contact" class="btn outline">Contact Me</a>
-      </div>
-    </div>
-    <div class="hero-image">
-      <div class="circle">
-        <img src="https://cdn-icons-png.flaticon.com/512/841/841364.png" alt="Laptop Icon">
-      </div>
-    </div>
-  </section>
+    <!-- Header -->
+    <header>
+        <h1>Anas Aliyu</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <!-- About -->
-  <section id="about" class="container">
-    <h2>About Me</h2>
-    <p>
-      I'm a passionate learner of web development, focused on turning ideas into functional,
-      responsive, and elegant websites.  
-      My aim is to keep growing by building practical projects and delivering real value.
-    </p>
-  </section>
+    <!-- About Me Section -->
+    <section id="about" class="fade-in">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    I am <strong>Anas Aliyu</strong>, a web developer crafting clean, functional, 
+                    and modern websites that deliver excellent user experiences for clients. 
+                    I focus on writing professional, efficient code while keeping design smooth and engaging.
+                </p>
+            </div>
+            <div class="about-icon">
+                <span class="laptop-icon">💻</span>
+            </div>
+        </div>
+    </section>
 
-  <!-- Skills -->
-  <section id="skills" class="container">
-    <h2>Skills</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Frontend</h3>
-        <p>HTML, CSS, JavaScript — creating responsive and modern interfaces.</p>
-      </div>
-      <div class="card">
-        <h3>Design</h3>
-        <p>Clean UI layouts with attention to detail and accessibility.</p>
-      </div>
-      <div class="card">
-        <h3>Problem Solving</h3>
-        <p>Breaking down challenges and building practical, efficient solutions.</p>
-      </div>
-    </div>
-  </section>
+    <!-- Skills Section -->
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML & CSS</h3>
+                <p>Building responsive, semantic, and visually appealing layouts for all devices.</p>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Adding interactivity and functionality to web applications with clean code.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Responsive Design</h3>
+                <p>Ensuring consistent performance and design across all screen sizes.</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Projects -->
-  <section id="projects" class="container">
-    <h2>Projects</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>To-Do App</h3>
-        <p>A simple and intuitive task manager that lets users add,complete,and delete tasks. Built with HTML & CSS.</p>
-        <a href="projects\project_2\to-do-app.html" target="_blank" class="btn small">View project</a>
-      </div>
-      <div class="card">
-        <h3>Calculator</h3>
-        <p>Functional calculator with JavaScript — styled for real use.</p>
-        <a href="projects\calculator.html" target="_blank" class="btn small">View project</a>
-      </div>
-      <div class="card">
-        <h3>Weather App</h3>
-        <p>Live weather updates using an API with search functionality.</p>
-        <a href="projects\project_2\project_3\weather.html" target="_blank" class="btn small">View project</a>
-      </div>
-    </div>
-  </section>
+    <!-- Projects Section -->
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <p>Interactive calculator built with HTML, CSS, and JavaScript.</p>
+                <a href="projects\calculator.html">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>Real-time weather application fetching data from APIs.</p>
+                <a href="projects\projects\weather.html">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>To-Do App</h3>
+                <p>Task management app designed to improve productivity.</p>
+                <a href="projects\projects\projects\to-do.html">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Movie App</h3>
+                <p>Movie search and trending app using the TMDb API with dynamic results.</p>
+                <a href="projects\projects\projects\projects\movie.html">View Project</a>
+            </div>
+        </div>
+    </section>
 
-  <!-- Contact -->
-  <section id="contact" class="container">
-    <h2>Contact:</h2>
-    <p>If you'd like to collaborate or have a project in mind, reach out to me:</p>
-    <p>
-      <a href="mailto:nasyyakubu@gmail.com" class="email-link">📧 nasyyakubu@gmail.com</a>
-    </p>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact" class="fade-in">
+        <h2>Let's Collaborate</h2>
+        <p class="center-text">
+            If you want to collaborate or discuss a project, feel free to reach out!
+        </p>
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:nasyyakubu@gmail.com">nasyyakubu@gmail.com</a></li>
+            <li>Phone: +234 7063233246</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/anas-yakubu-554709376" target="_blank">www.linkedin.com/in/anas-yakubu-554709376</a></li>
+        </ul>
+    </section>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <p>&copy; <span id="year"></span> Anas Aliyu — Portfolio Practice.</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Anas Aliyu
+    </footer>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
